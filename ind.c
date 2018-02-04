@@ -1,18 +1,18 @@
+
 #include<stdio.h>
 int main()
 { 
-	int n,a[50],i;
+	int num,a[50],i;
 	printf("\n enter the limit:");
-	scanf("%d",&n);
-	printf("\n enter the number one by one");
-	for(i=0;i<n;i++)
+	scanf("%d",&num);
+	printf("\n enter the numbers");
+	for(i=0;i<num;i++)
 	{
 		scanf("%d",&a[i]);
 	}
-	for(i=0;i<n;i++)
+	for(i=0;i<num;i++)
 	{
-	printf("\n the number is %d ",a[i]);
-	printf("\n the index value is %d",i);
+	printf("\n the number and index value is %d %d",a[i],i);
         }
 	return 0;
 }
