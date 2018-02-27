@@ -2,9 +2,10 @@
 #include<math.h>
 void main()
 {
-  int a,b,c;
+  int A,B,C,d
   printf("\nEnter numbers");
-  scanf("%d%d%d",&a,&b,&c);
-  c=(a*b)/c;
-  printf("%d",c);
+  scanf("%d%d%d",&A,&B,&C);
+  
+  d=(A*B)/C;
+  printf("%d",d);
 }
