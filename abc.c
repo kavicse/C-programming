@@ -2,7 +2,7 @@
 #include<math.h>
 void main()
 {
-  int A,B,C,d
+  int A,B,C,d;
   printf("\nEnter numbers");
   scanf("%d%d%d",&A,&B,&C);
   
